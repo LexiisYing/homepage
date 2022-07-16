@@ -1,0 +1,231 @@
+/* =================
+  WRITE YOUR CSS HERE.
+  Check the ⌄ for help with formatting and validating your code.
+  You must write some CSS to complete this challenge.
+   ===================
+*/
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Inconsolata&family=Odibee+Sans&family=Open+Sans:wght@500&display=swap');
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+   background: url(https://images.unsplash.com/photo-1528459801416-a9e53bbf4e17?ixlib=rb-1.2.1&raw_url=true&q=80&fm=jpg&crop=entropy&cs=tinysrgb&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=824)
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+ul{
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+h1{
+  font-family: Caveat;
+  font-weight: 300;
+  font-size: 40px;
+  margin: 10px 0px;
+  line-height: 1.2;
+}
+
+p{
+  font-family: Caveat;
+  padding: 10px;
+}
+
+.titles{
+  font-family: Caveat;
+  font-size: 30px
+}
+
+/* navbar */
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 0 40px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.navbar{
+  background-color: #FDF5E6;
+  opacity: 0.8;
+  height: 80px;
+  justify-content: space-between;
+}
+
+.navbar ul{
+  display: flex;
+}
+
+.navbar a{
+  color: coral;
+  padding: 10px;
+  margin: 0 5px;
+}
+
+.navbar a:hover{
+  border-bottom: 2px #FFE4E1 solid;
+}
+
+.navbar .flex{
+  justify-content: space-between;
+}
+
+iframe{
+  border: 0px;
+}
+
+
+.maincontainer{
+  margin: 10px auto 0 auto;
+  line-height: 1.6;
+  padding: 20px 30px;
+  display: grid;
+  grid-template-columns: 600px 600px;
+  gri-template-rows: 2fr 1fr;
+  gap: 50px; 
+}
+
+.contentintro{
+  font-size: 20px;
+  background-color: #E6E6FA;
+  opacity: 0.8;
+  width: 460px;
+  padding: 10px;
+  margin: 10px;
+}
+.aboutmecontainer{
+  width: 500px;
+  padding: 10px;
+  margin: 10px; 
+}
+
+.me{
+  width: 460px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.video {
+  padding: 10px;
+  margin: 10px;
+}
+
+.projectsection {
+  padding: 20px;
+  margin: 10px;
+}
+
+.paperdress{
+  width: 500px;
+  padding: 10px;
+}
+.tailoringproject{
+  width: 500px;
+  padding: 20px;
+}
+
+.futuresection{
+  padding: 10px;
+  margin: 10px; 
+}
+
+.futurepic{
+  padding: 10px;
+  margin: 10px; 
+}
+
+.codepic{
+  width: 460px;
+  padding:20px;
+  margin: 0px;
+}
+
+.contact{
+  background-color: #E6E6FA;
+  opacity: 0.7;
+  padding: 10px;
+  margin: 10px;
+  width: 460px;
+}
+
+.contactcontainer {
+  width: 460px;
+  padding:20px;
+}
+
+.inputs {
+  width: 90%;
+  height: 30px;
+  padding: 5px 5px;
+  background-color: #FFFFE0;
+  border: 1px solid #FAFAD2;
+  border-radius: 10px;
+}
+
+
+#textarea{
+  display: flex;
+  justify-content: left;
+  padding: 10px;
+  margin: 10px;
+}
+
+.c-site-footer{
+  display: flex;
+  justify-content: center;
+}
+
+.bottom{
+  color: coral;
+  font-family: Caveat;
+}
+
+img{
+  width:450px;
+  height: auto;
+}
+
+.submit-button{
+  font-family: Caveat;
+  display: flex;
+  justify-content: left;
+  padding: 20px;
+  margin: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* don't edit this */
+.jest-lite-report__status--pass {
+  background: var(--color-pass);
+}
+.jest-lite-report__errors {
+  display: none;
+}
